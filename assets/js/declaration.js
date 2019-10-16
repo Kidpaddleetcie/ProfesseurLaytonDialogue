@@ -8,14 +8,11 @@ const emotion=["Neutre","Heureux","Triste","Bruh"];
 const decor=["Noir","Chambre","Salle","Toilette","Paris","Voiture","Bureau","Hopital"];
 
 // Déclaration de la zone 
-const screen= document.getElementById("background");
-const tb= document.getElementById("textbox");
+const bg= document.getElementById("background");
 let name=document.getElementById("name");
+const tb= document.getElementById("dialogue");
 
-// Boutons 3 scènes
-const b1=document.getElementById("b1");
-const b2=document.getElementById("b2");
-const b3=document.getElementById("b3");
+
 
 
 
