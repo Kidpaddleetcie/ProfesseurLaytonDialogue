@@ -121,10 +121,12 @@ function scene2() {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + xx.p + "/" + xx.e + ".png";
             p2.alt = xx.p;
+
         } else {
             t.style.backgroundImage = 'url(assets/img/TextBox-gauche.png)';
             p1.src = "assets/img/personnages/" + xx.p + "/" + xx.e + ".png";
             p1.alt = xx.p;
+
         }
 
     }
@@ -176,10 +178,13 @@ function scene3() {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + xxx.p + "/" + xxx.e + ".png";
             p2.alt = xxx.p;
+
         } else {
             t.style.backgroundImage = 'url(assets/img/TextBox-gauche.png)';
+
             p1.src = "assets/img/personnages/" + xxx.p + "/" + xxx.e + ".png";
             p1.alt = xxx.p;
+
         }
     }
 }

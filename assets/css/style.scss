@@ -15,6 +15,7 @@ body {
     height: 420px;
     background-image: url(../img/decors/Bureau.png);
     background-size: contain;
+    background-repeat: no-repeat;
     #p1 {
         width: 206px;
         height: 420px;
@@ -58,7 +59,9 @@ body {
 }
 
 #button {
+    background-color: rgb(92, 18, 18);
     position: fixed;
+    width: 512px;
     top: 385px;
     text-align: center;
 }
