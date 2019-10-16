@@ -14,7 +14,7 @@ Les animations et les changements sont fait en Javascript.
 
 Au delà de Professeur Layton, Luke Triton et Jean Descole sont présents Princesse Luigi,Tintin,Kass et Glin qui ont un lien avec Professeur Layton suite aux YouTubes Poops de Glin sur la chaîne YouTube "Poopulaire". 
 
-## Les épisodes de la série "[YTP FR]Professeur Layton...":
+### Les épisodes de la série "[YTP FR]Professeur Layton...":
 * [combat La pédophilie](https://www.youtube.com/watch?v=9ZFD76Pp17o)
 * [smash tout le monde !](https://www.youtube.com/watch?v=ooWbicYxaFQ)
 * [contre Glin](https://www.youtube.com/watch?v=P2TR9cMP99k)
