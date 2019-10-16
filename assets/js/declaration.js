@@ -9,5 +9,8 @@ const decor = ["Noir", "Chambre", "Salle", "Toilette", "Paris", "Voiture", "Bure
 
 // Déclaration de la zone 
 const bg = document.getElementById("background");
-let name = document.getElementById("name");
+const name = document.getElementById("name");
 const tb = document.getElementById("dialogue");
+const t = document.getElementById("textbox");
+const p1 = document.getElementById("p1");
+const p2 = document.getElementById("p2");
