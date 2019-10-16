@@ -20,5 +20,5 @@ Au delà de Professeur Layton, Luke Triton et Jean Descole sont présents Prince
 * [contre Glin](https://www.youtube.com/watch?v=P2TR9cMP99k)
 * [combat le terrorisme](https://www.youtube.com/watch?v=yqitHCVog54)
 * [combat le nazisme (PARTIE 1)](https://www.youtube.com/watch?v=_A7gy_yDdJQ)
-* [combat le nazisme (PARTIE 2](#)
+* [combat le nazisme (PARTIE 2)](#)
 
