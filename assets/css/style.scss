@@ -1,0 +1,63 @@
+body{
+    width:512px;
+height:420px;
+border:1px solid black;
+}
+
+#textbox{
+    background-image: url(../img/TextBox-gauche.png);
+    width:512px;
+    height:384px;
+#name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight:bold;
+    position: fixed;
+    top:250px;
+    left:40px;
+    width:200px;
+    height:50px;
+    color:white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#dialogue{
+    position: fixed;
+    top:285px;
+    left:20px;
+    width:485px;
+    height:100px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+}
+
+#button{
+    text-align:center;
+}
+#b1,#b2,#b3{
+    color:white;
+    font-weight:bold;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+        box-shadow:inset 0px 0px 6px 1px white;
+        background-color:#ffd68c;
+        border-radius:6px;
+        border:1px solid black;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Times New Roman;
+        font-size:30px;
+        padding:0px 32px;
+        text-decoration:none;
+    
+    &:hover {
+        background-color:#ffd0bb;
+    }
+    &:active {
+        position:relative;
+        top:1px;
+    }
+}
