@@ -12,7 +12,6 @@ const screen= document.getElementById("background");
 const tb= document.getElementById("textbox");
 let name=document.getElementById("name");
 
-
 // Boutons 3 scènes
 const b1=document.getElementById("b1");
 const b2=document.getElementById("b2");

@@ -10,8 +10,11 @@ Les 3 actes se lancent chacun par un bouton en dessous de la zone de discussion.
 
 Les animations et les changements sont fait en Javascript.
 
-## Les personnages secondaires
+Les personnages sont "Personne","Layton","Luke","Descole","Pr. Luigi","Tintin","Glin","Kass" et "Hitler" !
+Les émotions sont "Neutre","Heureux","Triste" et "Bruh" !
+Les décors sont "Noir","Chambre","Salle","Toilette","Paris","Voiture","Bureau" et "Hopital" !
 
+## Les personnages secondaires
 Au delà de Professeur Layton, Luke Triton et Jean Descole sont présents Princesse Luigi,Tintin,Kass et Glin qui ont un lien avec Professeur Layton suite aux YouTubes Poops de Glin sur la chaîne YouTube "Poopulaire". 
 
 ### Les épisodes de la série "[YTP FR]Professeur Layton...":
