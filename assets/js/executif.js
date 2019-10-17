@@ -66,10 +66,22 @@ function scene1() {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + x.p + "/" + x.e + ".png";
             p2.alt = x.p;
+            if(x.a===1){
+                p2.classList.add("entrep2");
+            }else{
+                p2.classList.remove("entrep2");
+
+            }
         } else {
             t.style.backgroundImage = 'url(assets/img/TextBox-gauche.png)';
             p1.src = "assets/img/personnages/" + x.p + "/" + x.e + ".png";
             p1.alt = x.p;
+            if(x.a===1){
+                p1.classList.add("entrep1");
+            }else{
+                p1.classList.remove("entrep1");
+  
+            }
         }
     }
 }
@@ -121,12 +133,22 @@ function scene2() {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + xx.p + "/" + xx.e + ".png";
             p2.alt = xx.p;
-
+            if(xx.a===1){
+                p2.classList.add("entrep2");
+            }else{
+                p2.classList.remove("entrep2");
+  
+            }
         } else {
             t.style.backgroundImage = 'url(assets/img/TextBox-gauche.png)';
             p1.src = "assets/img/personnages/" + xx.p + "/" + xx.e + ".png";
             p1.alt = xx.p;
+            if(xx.a===1){
+                p1.classList.add("entrep1");
+            }else{
+                p1.classList.remove("entrep1");
 
+            }
         }
 
     }
@@ -178,13 +200,23 @@ function scene3() {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + xxx.p + "/" + xxx.e + ".png";
             p2.alt = xxx.p;
+            if(xxx.a===1){
+                p2.classList.add("entrep2");
+            }else{
+                p2.classList.remove("entrep2");
+  
+            }
 
         } else {
             t.style.backgroundImage = 'url(assets/img/TextBox-gauche.png)';
-
             p1.src = "assets/img/personnages/" + xxx.p + "/" + xxx.e + ".png";
             p1.alt = xxx.p;
-
+            if(xxx.a===1){
+                p2.classList.add("entrep1");
+            }else{
+                p2.classList.remove("entrep1");
+  
+            }
         }
     }
 }

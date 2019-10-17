@@ -20,6 +20,8 @@ body {
         width: 206px;
         height: 420px;
         transform: scaleX(-1);
+        position: absolute;
+        left: 0;
     }
     #p2 {
         width: 206px;
@@ -93,4 +95,41 @@ body {
         position: relative;
         top: 1px;
     }
+}
+
+@keyframes entreep1{
+    0%{
+left:10px;
+    }
+    50%{
+        left:15px;
+  
+    }
+    100%{
+        left:0;
+
+    }
+}
+
+@keyframes entreep2{
+    0%{
+        right:10px;
+            }
+            50%{
+                right:15px;
+          
+            }
+            100%{
+                right:0;
+        
+            }
+}
+
+.entrep1{
+    animation-duration: 0.5s;
+    animation-name: entreep1;
+}
+.entrep2{
+    animation-duration: 0.5s;
+    animation-name: entreep2;
 }
