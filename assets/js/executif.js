@@ -66,6 +66,8 @@ function scene1() {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + x.p + "/" + x.e + ".png";
             p2.alt = x.p;
+            p1.style.filter="brightness(50%)";
+            p2.style.filter="brightness(100%)";
             if(x.a===1){
                 p2.classList.add("entrep2");
             }else{
@@ -76,6 +78,8 @@ function scene1() {
             t.style.backgroundImage = 'url(assets/img/TextBox-gauche.png)';
             p1.src = "assets/img/personnages/" + x.p + "/" + x.e + ".png";
             p1.alt = x.p;
+            p2.style.filter="brightness(50%)";
+            p1.style.filter="brightness(100%)";
             if(x.a===1){
                 p1.classList.add("entrep1");
             }else{
@@ -133,6 +137,8 @@ function scene2() {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + xx.p + "/" + xx.e + ".png";
             p2.alt = xx.p;
+            p1.style.filter="brightness(50%)";
+            p2.style.filter="brightness(100%)";           
             if(xx.a===1){
                 p2.classList.add("entrep2");
             }else{
@@ -143,6 +149,8 @@ function scene2() {
             t.style.backgroundImage = 'url(assets/img/TextBox-gauche.png)';
             p1.src = "assets/img/personnages/" + xx.p + "/" + xx.e + ".png";
             p1.alt = xx.p;
+            p2.style.filter="brightness(50%)";
+            p1.style.filter="brightness(100%)";
             if(xx.a===1){
                 p1.classList.add("entrep1");
             }else{
@@ -199,18 +207,21 @@ function scene3() {
         if (xxx.pos==="droite") {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + xxx.p + "/" + xxx.e + ".png";
+            p1.style.filter="brightness(50%)";
+            p2.style.filter="brightness(100%)";
             p2.alt = xxx.p;
             if(xxx.a===1){
                 p2.classList.add("entrep2");
             }else{
                 p2.classList.remove("entrep2");
-  
             }
 
         } else {
             t.style.backgroundImage = 'url(assets/img/TextBox-gauche.png)';
             p1.src = "assets/img/personnages/" + xxx.p + "/" + xxx.e + ".png";
             p1.alt = xxx.p;
+            p2.style.filter="brightness(50%)";
+            p1.style.filter="brightness(100%)";
             if(xxx.a===1){
                 p2.classList.add("entrep1");
             }else{
