@@ -62,7 +62,7 @@ function scene1() {
         name.innerText = x.p;
         tb.innerText = x.s;
         bg.style.backgroundImage = 'url(' + 'assets/img/decors/' + x.d + '.png)';
-        if (i % 2 === 1) {
+        if (x.pos==="droite") {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + x.p + "/" + x.e + ".png";
             p2.alt = x.p;
@@ -117,7 +117,7 @@ function scene2() {
         name.innerText = xx.p;
         tb.innerText = xx.s;
         bg.style.backgroundImage = 'url(' + 'assets/img/decors/' + xx.d + '.png)';
-        if (ii % 2 === 1) {
+        if (xx.pos==="droite") {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + xx.p + "/" + xx.e + ".png";
             p2.alt = xx.p;
@@ -174,7 +174,7 @@ function scene3() {
         name.innerText = xxx.p;
         tb.innerText = xxx.s;
         bg.style.backgroundImage = 'url(' + 'assets/img/decors/' + xxx.d + '.png)';
-        if (iii % 2 === 1) {
+        if (xxx.pos==="droite") {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + xxx.p + "/" + xxx.e + ".png";
             p2.alt = xxx.p;
