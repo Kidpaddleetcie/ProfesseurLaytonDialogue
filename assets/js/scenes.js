@@ -1,3 +1,15 @@
+/*Fonctionnement des scènes*/
+// Une scène est composée d'un ensemble de donnée sous les variables s,p,e,d,pos et a !
+//s est l'inital de "sentence" et contient une phrase !
+//p est l'initial de "personnage" et contient l'indication du personnage présent selon l'index du tableau perso déclaré dans declaration.js !
+//e est l'initial de "émotion" et contient l'indication de l'émotion présent selon l'index du tableau emotion déclaré dans declaration.js !
+//d est l'initial de "décor" et contient l'indication du décor présent selon l'index du tableau decor déclaré dans declaration.js !
+//pos est l'abrégé de "position" et indique si le personnage se trouve à gauche ou à droite !
+//a est l'initial de "animation" et indique si une animation doit être ajouté (valeur 1) ou retirer (valeur 0) !
+
+
+
+
 /* Les scénarios */
 //Scène 1
 const s1 = [{
