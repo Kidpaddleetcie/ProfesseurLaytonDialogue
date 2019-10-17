@@ -9,7 +9,7 @@ const s1 = [{
         a:1
     },
     {
-        s: "Mon petit Luke, cette paix est ce pourquoi luttent tout les vrais gentlemans !",
+        s: "Mon petit Luke, cette paix est ce pourquoi luttent tout les vrais gentlemens !",
         p: perso[1],
         e: emotion[1],
         d: decor[6],
@@ -65,7 +65,7 @@ const s1 = [{
         a:0
     },
     {
-        s: "C'est génial mais qui sait ?",
+        s: "C'est génial mais qui c'est ?",
         p: perso[2],
         e: emotion[3],
         d: decor[6],
@@ -189,7 +189,7 @@ const s2 = [{
         a:0
     },
     {
-        s: "Vous pouvez nous aidé !",
+        s: "Vous pouvez nous aider !",
         p: perso[2],
         e: emotion[0],
         d: decor[2],
@@ -197,7 +197,7 @@ const s2 = [{
         a:0
     },
     {
-        s: "Contrairement à ce qu'aurait écrit Glin, je ne suis pas en mesure de vous aidé !",
+        s: "Contrairement à ce qu'aurait écrit Glin, je ne suis pas en mesure de vous aider !",
         p: perso[7],
         e: emotion[0],
         d: decor[2],
@@ -253,7 +253,7 @@ const s2 = [{
         a:0
     },
     {
-        s: "J'ai un truc à vous révélé !",
+        s: "J'ai un truc à vous révéler !",
         p: perso[7],
         e: emotion[1],
         d: decor[2],
@@ -269,7 +269,7 @@ const s2 = [{
         a:0
     },
     {
-        s: "C'est exactement ça ! Prenez ce lance-patate et il se trouve dans mes toilettes depuis deux jours ! ",
+        s: "C'est exactement ça ! Prenez ce lance-patate, Descole se trouve dans mes toilettes depuis deux jours ! ",
         p: perso[7],
         e: emotion[1],
         d: decor[2],
