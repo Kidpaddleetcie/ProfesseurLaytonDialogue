@@ -8,7 +8,7 @@ L'affichage se fait sur 4 données ( Phrase, Personnage,Émotion et Décor) qui 
 
 Les 3 actes se lancent chacun par un bouton en dessous de la zone de discussion.
 
-Les animations et les changements sont fait en Javascript.
+Les animations et les changements sont fait en Javascript ET CSS.
 
 Les personnages sont "Personne","Layton","Luke","Descole","Pr. Luigi","Tintin","Glin","Kass" et "Hitler" !
 Les émotions sont "Neutre","Heureux","Triste" et "Bruh" !
