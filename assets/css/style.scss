@@ -1,92 +1,96 @@
-html{
-width:512px;
-height:420px;
-border:1px solid black;
-}
-body{
-    margin:0;
+html {
+    width: 512px;
+    height: 420px;
+    border: 1px solid black;
 }
 
-#background{
-    position:fixed;
-    z-index:0;
-    width:512px;
-    height:420px;
+body {
+    margin: 0;
+}
+
+#background {
+    position: fixed;
+    z-index: 0;
+    width: 512px;
+    height: 420px;
     background-image: url(../img/decors/Bureau.png);
-background-size: contain;
-    #p1{
-        width:206px;
-        height:420px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    #p1 {
+        width: 206px;
+        height: 420px;
         transform: scaleX(-1);
     }
-    #p2{
-        width:206px;
-        height:420px;
-        position:absolute;
-        right:0;
-
+    #p2 {
+        width: 206px;
+        height: 420px;
+        position: absolute;
+        right: 0;
     }
 }
 
-
-#textbox{
-    position:fixed;
-    z-index:2;
+#textbox {
+    position: fixed;
+    z-index: 2;
     background-image: url(../img/TextBox-gauche.png);
-    width:512px;
-    height:384px;
-#name{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight:bold;
-    position: fixed;
-    top:245px;
-    left:40px;
-    width:200px;
-    height:50px;
-    color:white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    width: 512px;
+    height: 384px;
+    #name {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+        position: fixed;
+        top: 245px;
+        left: 40px;
+        width: 200px;
+        height: 50px;
+        color: white;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    #dialogue {
+        position: fixed;
+        top: 280px;
+        left: 20px;
+        width: 485px;
+        height: 100px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+    }
 }
-#dialogue{
-    position: fixed;
-    top:280px;
-    left:20px;
-    width:485px;
-    height:100px;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 20px;
 
-}
+#button {
+    background-color: rgb(92, 18, 18);
+    position: fixed;
+    width: 512px;
+    top: 385px;
+    text-align: center;
 }
 
-#button{
-position:fixed;
-top:385px;
-    text-align:center;
-}
-#b1,#b2,#b3{
-    color:white;
-    font-weight:bold;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+#b1,
+#b2,
+#b3 {
+    color: white;
+    font-weight: bold;
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-        box-shadow:inset 0px 0px 6px 1px white;
-        background-color:#ffd68c;
-        border-radius:6px;
-        border:1px solid black;
-        display:inline-block;
-        cursor:pointer;
-        color:#ffffff;
-        font-family:Times New Roman;
-        font-size:30px;
-        padding:0px 32px;
-        text-decoration:none;
-    
+    box-shadow: inset 0px 0px 6px 1px white;
+    background-color: #ffd68c;
+    border-radius: 6px;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Times New Roman;
+    font-size: 30px;
+    padding: 0px 32px;
+    text-decoration: none;
     &:hover {
-        background-color:#ffd0bb;
+        background-color: #ffd0bb;
     }
     &:active {
-        position:relative;
-        top:1px;
+        position: relative;
+        top: 1px;
     }
 }
