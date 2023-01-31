@@ -1,11 +1,29 @@
+@font-face {
+	font-family: "Layton Font";
+	src: url('RETRO GAMING.TTF');
+}
+
+$contour : #342322;
+@mixin ombre {
+    text-shadow: -1px -1px 0 $contour, 1px -1px 0 $contour, -1px 1px 0 $contour, 1px 1px 0 $contour;
+text-shadow: -2px -2px 0 $contour, 2px -2px 0 $contour, -2px 2px 0 $contour, 2px 2px 0 $contour;
+}
+
+
+    
+
+
+
 html {
     width: 512px;
     height: 420px;
     border: 1px solid black;
 }
 
+
 body {
     margin: 0;
+    font-family: "Layton Font";
 }
 
 #background {
@@ -38,16 +56,15 @@ body {
     width: 512px;
     height: 384px;
     #name {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
         position: fixed;
-        top: 245px;
-        left: 40px;
+        top: 242px;
+        left: 14px;
         width: 200px;
         height: 50px;
         color: white;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        @include ombre;
     }
     #dialogue {
         position: fixed;
@@ -55,7 +72,6 @@ body {
         left: 20px;
         width: 485px;
         height: 100px;
-        font-family: 'Courier New', Courier, monospace;
         font-size: 20px;
     }
 }
@@ -74,9 +90,6 @@ body {
     color: white;
     font-weight: bold;
     -webkit-text-fill-color: white;
-    /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
     box-shadow: inset 0px 0px 6px 1px white;
     background-color: #ffd68c;
     border-radius: 6px;
@@ -84,10 +97,10 @@ body {
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
-    font-family: Times New Roman;
-    font-size: 30px;
-    padding: 0px 32px;
+    font-size: 20px;
+    padding: 5px 32px;
     text-decoration: none;
+@include ombre;
     &:hover {
         background-color: #ffd0bb;
     }
