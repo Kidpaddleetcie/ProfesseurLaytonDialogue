@@ -63,6 +63,9 @@ body {
   height: 100px;
   font-size: 20px;
 }
+#textbox #dialogue .Typewriter__cursor {
+  display: none;
+}
 
 #button {
   background-color: rgb(92, 18, 18);

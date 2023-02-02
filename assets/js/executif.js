@@ -78,6 +78,8 @@ function scene_name() {
     document.getElementById("b2").innerText = "Scène 2";
     document.getElementById("b3").innerText = "Scène 3";
 }
+const type_sound = new Audio("assets/js/type.wav");
+
 
 // Les accumulateurs (i*NBR)
 let i = 0;
@@ -109,7 +111,7 @@ function scene1() {
         nom.innerText = x.p;
         const typewriter = new Typewriter(tb, {
             delay: 50,
-            loop: false
+            loop: false,
         });
         typewriter.typeString(x.s)
             .callFunction((state) => {
