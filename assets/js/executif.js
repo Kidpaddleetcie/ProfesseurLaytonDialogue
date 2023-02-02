@@ -106,10 +106,18 @@ function scene1() {
     }
     function scene1m() {
         let x = s1[i]
-        name.innerText = x.p;
-        tb.innerText = x.s;
+        nom.innerText = x.p;
+        const typewriter = new Typewriter(tb, {
+            delay: 50,
+            loop: false
+        });
+        typewriter.typeString(x.s)
+            .callFunction((state) => {
+                state.elements.cursor.style.display = 'none';
+            })
+            .start();
         bg.style.backgroundImage = 'url(' + 'assets/img/decors/' + x.d + '.png)';
-        if (x.pos==="droite") {
+        if (x.pos === "droite") {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + x.p + "/" + x.e + ".png";
             p2.alt = x.p;
@@ -153,12 +161,20 @@ function scene2() {
         document.getElementById("b2").style.display = "none";
         window.location.reload()
     }
-    function scene2m() {
+       function scene2m() {
         let xx = s2[ii]
-        name.innerText = xx.p;
-        tb.innerText = xx.s;
+        nom.innerText = xx.p;
+        const typewriter = new Typewriter(tb, {
+            delay: 50,
+            loop: false
+        });
+        typewriter.typeString(xx.s)
+            .callFunction((state) => {
+                state.elements.cursor.style.display = 'none';
+            })
+            .start();
         bg.style.backgroundImage = 'url(' + 'assets/img/decors/' + xx.d + '.png)';
-        if (xx.pos==="droite") {
+        if (xx.pos === "droite") {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + xx.p + "/" + xx.e + ".png";
             p2.alt = xx.p;
@@ -202,12 +218,20 @@ function scene3() {
         document.getElementById("b3").style.display = "none";
         window.location.reload()
     }
-    function scene3m(){
+    function scene3m() {
         let xxx = s3[iii]
-        name.innerText = xxx.p;
-        tb.innerText = xxx.s;
+        nom.innerText = xxx.p;
+        const typewriter = new Typewriter(tb, {
+            delay: 50,
+            loop: false
+        });
+        typewriter.typeString(xxx.s)
+            .callFunction((state) => {
+                state.elements.cursor.style.display = 'none';
+            })
+            .start();
         bg.style.backgroundImage = 'url(' + 'assets/img/decors/' + xxx.d + '.png)';
-        if (xxx.pos==="droite") {
+        if (xxx.pos === "droite") {
             t.style.backgroundImage = 'url(assets/img/TextBox-droite.png)';
             p2.src = "assets/img/personnages/" + xxx.p + "/" + xxx.e + ".png";
             p1.style.filter="brightness(50%)";

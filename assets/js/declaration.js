@@ -30,7 +30,7 @@ const decor = ["Noir", "Chambre", "Salle", "Toilette", "Paris", "Voiture", "Bure
 const bg = document.getElementById("background");
 
 //Nom du personnage
-const name = document.getElementById("name");
+const nom = document.getElementById("name");
 
 //Phrase du personnage
 const tb = document.getElementById("dialogue");
